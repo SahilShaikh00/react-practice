@@ -1,0 +1,40 @@
+
+.card {
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+}
+
+.card-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: gray;
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #1d4ed8;
+}
